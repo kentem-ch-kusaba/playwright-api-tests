@@ -1,0 +1,20 @@
+# Playwright
+node_modules/
+/test-results/
+/playwright-report/
+/blob-report/
+/playwright/.cache/
+# 環境設定ファイル
+.env
+.env.local
+.env.*.local
+# ログファイル
+logs
+*.log
+# IDEやエディタの設定ファイル
+.vscode/
+# 認証情報ファイル
+playwright/.auth/user.json
+playwright/.auth/kbsuser.json
+# リジェクトファイル
+*.rej
